@@ -137,7 +137,7 @@ func calc_spot(ca, cb float64) (bool, int) {
 }
 
 func asColor(n int) tcell.Color {
-	color := tcell.Color((16 + n) % 231)
+	color := tcell.Color((16 + n) % 229)
 	return color
 }
 
@@ -160,6 +160,9 @@ func pollEvents(s tcell.Screen) {
 					zoom(s, 1, 1, 1)
 				case 'x':
 					zoom(s, 0, 1, 1)
+				case 'q':
+					close(quit)
+					return
 				}
 				//s.Sync()
 			case tcell.KeyUp:
