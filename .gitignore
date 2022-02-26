@@ -1,1 +1,6 @@
+# macos
+.DS_Store
+._*
+
+# generated artifacts
 gomandelbrot

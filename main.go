@@ -92,7 +92,7 @@ func drawScreen(s tcell.Screen) {
 	}
 
 	st := tcell.StyleDefault
-	const gl = '▄'
+	const gl = '▄' // U+2584 Lower half block
 	//	const gl = ' '
 
 	for x := 0; x < w; x++ {
