@@ -2,5 +2,9 @@
 .DS_Store
 ._*
 
+# external deps
+vendor/
+
 # generated artifacts
 fractty
+*.test

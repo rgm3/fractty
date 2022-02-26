@@ -1,4 +1,6 @@
 // fractty - Mandelbrot set explorer in your terminal
+// SPDX-FileCopyrightText: 2022 Roland G. McIntosh
+// SPDX-License-Identifier: GPL-3.0-or-later
 package main
 
 import (

@@ -1,20 +1,23 @@
 BIN=fractty
-.PHONY=build test run clean
-
-all: $(BIN)
 
 $(BIN): go.mod main.go
 	go build -o $(BIN) main.go
 
-build:
-	go build
+.PHONY: all
+all: $(BIN)
 
+.PHONY: build
+build: $(BIN)
+
+.PHONY: test
 test:
 	go test -v main.go
 
+.PHONY: run
 run: $(BIN)
 	./$(BIN)
 
+.PHONY: clean
 clean:
 	go clean
 	rm $(BIN)
