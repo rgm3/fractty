@@ -1,4 +1,4 @@
-BIN=gomandelbrot
+BIN=fractty
 .PHONY=build test run clean
 
 all: $(BIN)

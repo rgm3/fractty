@@ -1,4 +1,4 @@
-module github.com/rgm3/gomandelbrot
+module github.com/rgm3/fractty
 
 go 1.16
 

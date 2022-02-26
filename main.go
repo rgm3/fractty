@@ -1,4 +1,4 @@
-// Terminal based mandelbrot set explorer.
+// fractty - Mandelbrot set explorer in your terminal
 package main
 
 import (
